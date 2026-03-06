@@ -48,19 +48,14 @@
 // >=====================================================================================
 
 //5-  foydalanuvchi matn va harf kiritadi harf shu matn ichida bormi yoqi boolean type qaytarsin
+let matn = prompt("Matn kiriting:");
+let harf = prompt("Harf kiriting:");
 
-// let matn = prompt("Matn kiting:");
-// let harf = prompt("Qidirgan harfingini krting");
-
-// let bor = false;
-
-// for (let d = 0; d < matn.length; d++) {
-//   if (matn[d] === harf) {
-//     bor = true;
-//     break;
-//   }
-// }
-// console.log(bor);
+if (matn.includes(harf)) {
+  console.log(true);
+} else {
+  console.log(false);
+}
 
 // >==========================================================================================
 
